@@ -931,6 +931,11 @@
           <groupId>org.apache.calcite.avatica</groupId>
           <artifactId>*</artifactId>
         </exclusion>
+        <!-- Issue #84 https://github.com/dremio/dremio-oss/pull/84/-->
+        <exclusion>
+          <groupId>org.pentaho</groupId>
+          <artifactId>pentaho-aggdesigner-algorithm</artifactId>
+        </exclusion>
       </exclusions>
     </dependency>
 
